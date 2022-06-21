@@ -1,11 +1,20 @@
 //Business logic:
 
-function beepNum (numbers){
-  let beepNum = [0, "beep!", "boop","won't you be my neighbor?", 4, 5]
-   beepNum[0];
-  console.log();
+function beepNum (number) {
+  let beepNum = [];
+  for (let index= 0; index < parseInt(number); index +=1) {
+    beepNum.push(index);
+  }
+   return beepNum;
 
 }
 
+function beepNum (number) {
+  let beepNum = [];
+  if (index > 1) {
+
+  }
+}
 
 //UI Logic:
+$()
